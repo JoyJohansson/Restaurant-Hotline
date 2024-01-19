@@ -59,7 +59,7 @@ Feature: Betalning och orderbekräftelse
     Och leveranstid presenteras 
     
 
-5 User story : Bedömning och recension av mat
+5 User story : Bedömning och recension av mat .
 
 Feature: Bedömning och recension av mat
     Som användare vill jag kunna recensera mat som jag beställt från plattformen så att andra användare kan dra nytta av feedbacken
