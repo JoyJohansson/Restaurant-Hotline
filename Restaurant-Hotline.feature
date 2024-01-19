@@ -32,33 +32,44 @@ Scenario:
     Så ska användaren kunna i förväg ställa in vilka Kostbegränsningar som kunden har för maträtter som kunden vill beställa    
 
 
+3 User story: Beställa mat 
+
+Feature: Matbeställning användare
+    Som användare vill jag kunna bläddra på maträtter så att jag kan välja mina maträtter utan att vara bunden till en särskilld restaurang
 
 
-Feature: Göra en Matbeställning
-Som kund vill jag kunna beställa mat, 
-utifrån vilken sorts mat vi vill äta, 
-utan att behöva besöka olika restaurangers sidor
+    Background: Givet att användaren är på matbeställningssidan 
+    Scenario: Bläddrar i menyer och lägga till maträtter i beställning 
+    När jag väljer maträtt
+    Och lägger till maträtten i min beställning
+    Så vill jag kunna justera mina önskemål
+    Och bekräfta min beställning
 
-Scenario: Beställ mat
-  Givet att jag är inloggad på applikationen
-  När jag väljer att beställa mat
-  Så jag får möjlighet att beställa mat
-  Och jag får möjlighet att välja vilken sorts mat jag vill äta
-  Och att jag inte behöver besöka olika restaurangers sidor
+4 User story: Betalning och orderbekräftelse
 
-Feature: Ta emot en Matbeställning
-Som restaurang vill jag kunna ta emot en beställning,
-utifrån vilken sorts mat kunden vill äta
+Feature: Betalning och orderbekräftelse
+    Som användare ska jag kunna gå till kassan och betala mina varor så att jag kan slutföra min beställning och få en orderbekräftelse
 
-Scenario: Ta emot en beställning
-  Givet att jag är inloggad på applikationen
-  När jag väljer att ta emot en beställning
-  Så jag får möjlighet att ta emot en beställning
-  Och en kund lägger en Matbeställning
+    Background: Givet att användaren har lagt till maträtter i sin beställning
+    Scenario: Gå till kassan och betala
+    När användaren går till kassan
+    Och väljer bekräfta order
+    Så ska beställningen genomföras 
+    Och en orderbekräftelse med kvitto skickas till användarens mail 
+    Och leveranstid presenteras 
+    
 
+5 User story : Bedömning och recension av mat
 
+Feature: Bedömning och recension av mat
+    Som användare vill jag kunna recensera mat som jag beställt från plattformen så att andra användare kan dra nytta av feedbacken
 
-
+      Background: Givet att användarens beställning är levererad
+      Scenario: Betygsätt maträtt
+      När leveransen av mat är bekräftad 
+      Och det har gått en timme
+      Så skickas ett mail till användaren
+      Och ger användaren möjlighet att recensera maträtten 
 
 
 
@@ -165,5 +176,25 @@ Scenario: Ta emot en beställning
 
 
 
+Feature: Göra en Matbeställning
+Som kund vill jag kunna beställa mat, 
+utifrån vilken sorts mat vi vill äta, 
+utan att behöva besöka olika restaurangers sidor
 
+Scenario: Beställ mat
+  Givet att jag är inloggad på applikationen
+  När jag väljer att beställa mat
+  Så jag får möjlighet att beställa mat
+  Och jag får möjlighet att välja vilken sorts mat jag vill äta
+  Och att jag inte behöver besöka olika restaurangers sidor
+
+Feature: Ta emot en Matbeställning
+Som restaurang vill jag kunna ta emot en beställning,
+utifrån vilken sorts mat kunden vill äta
+
+Scenario: Ta emot en beställning
+  Givet att jag är inloggad på applikationen
+  När jag väljer att ta emot en beställning
+  Så jag får möjlighet att ta emot en beställning
+  Och en kund lägger en Matbeställning
 
