@@ -11,7 +11,7 @@ Feature: Kriterier
     Som användare ska jag kunna välja maträtter utifrån olika matkulturer/mattyper så att jag inte får upp en lista på det som inte intresserar mig
     
 
-Scenario: 
+Scenario: Användaren vill hitta relevanta maträtter
     Givet att användaren är på startsidan
     Och att anändaren har valt vilken lokalisation hen befinner sig på
     När användaren klickar på "Inspirerande maträtter"
@@ -70,6 +70,73 @@ Feature: Bedömning och recension av mat
       Och det har gått en timme
       Så skickas ett mail till användaren
       Och ger användaren möjlighet att recensera maträtten 
+
+
+
+RESTAURANG 
+1 user story Konto restaurang
+
+Feature: Skapa konto och administration som restaurang
+    Som restaurang ska jag kunna skapa ett konto på plattformen där jag kan ladda upp min maträtter
+    Som restaurang ska jag kunna justera priser för att vara konkurenskraftig 
+    Som restaurang ska jag kunna lägga till maträtter på plattformen som lockar kunder att beställa
+    Som restaurang ska jag kunna ange vilken typ av mat vi erbjuder och råvarors ursprung för att förbättra tydligheten för kunden 
+    Som restaurang ska jag kunna ta emot ordrar så att jag kan ta betalt av kunderna
+    Som restaurang ska jag kunna specificera vad maten innehåller så att kunden har lättare att välja 
+    Som restaurang ska jag kunna ta del av kundernas feedback för att kunna förbättra vår service 
+    Som restaurang ska jag kunna ta emot specefika önsklemål från kunden så att kunden får den bästa upplevelsen
+
+
+ Scenario: Registrering av restaurang
+    Givet att restaurangen är på registreringssidan
+    När restaurangen fyller i registreringsformuläret
+    Namn | Salahs husman
+    Mail | 27centimeter@hotmail.com
+    Löse | MammasMatÄrBäst
+    Adres|
+    Konto|
+    Öppet|
+    Och trycker på 'skapa konto'-knappen
+    Så ska restaurangen bli registrerad på plattformen
+    Och omdirigeras till inloggningssidan
+    Och restaurangen kan logga in
+
+    
+   
+
+  Scenario: Skapa meny 
+    Givet att restaurangen är inloggad på sin administrativa portal
+    När restaurangen klickar på 'Skapa Meny'
+    Så ska restaurangen ange specifikationer kring sin maträtter
+    Rätt  | Wallenbergare med mango chutney
+    Pris  | 99:-
+    Råvar | Kalv (Bangladesh)
+    Matkul| Svensk/indisk
+    Och publicera menyn för kunderna genom att trycka på 'skapa'
+
+
+  Scenario: Ta emot beställning
+    Givet att restaurangen har publicerat en meny
+    Och är markerad som online via den administrativa portalen
+    När restaurangen får en ny beställning av en kund
+    Så ska restaurangen se kundens beställning 
+    Och restaurangen kan välja att 'acceptera' eller 'neka' beställningen
+    
+
+
+#Todo - Uppskattad leveranstid
+
+  Berättelser 
+
+  Thomas är sugen på thaimat 
+    
+
+   
+    
+
+
+
+
 
 
 
