@@ -120,11 +120,11 @@ Feature: Skapa konto och administration som restaurang
     Och är markerad som online via den administrativa portalen
     När restaurangen får en ny beställning av en kund
     Så ska restaurangen se kundens beställning 
-    Och restaurangen kan välja att 'acceptera' eller 'neka' beställningen
+    Och restaurangen kan välja att 'bekräfta' beställningen
+    Och transaktionen slutförs
+    
     
 
-
-#Todo - Uppskattad leveranstid
 
   Berättelser 
 
