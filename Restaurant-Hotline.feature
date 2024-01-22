@@ -71,6 +71,21 @@ Feature: Bedömning och recension av mat
       Så skickas ett mail till användaren
       Och ger användaren möjlighet att recensera maträtten 
 
+Thomas är en thaimatsälskare. Han befinner sig i en annan stad och vill äta middag istället för att bläddra igenom flera restaurangmenyer bestlutar sig att använda vår restauranghottlineapplicationer.
+När han väl använder vår applikation så får han inspirerande bilder på olika matträter baserade på vår han befinner sig, matpreferencer och eventuela Kostbegränsningar.
+Applikationen ger Thomas genast olkia förslag på thiarätter som matchar hans matprofil. Och där efter får han ett lokande förslag på pad thai som är en av hans favorit maträtt.
+Han klickar på restaurangen och då får tillgång till bedömningar och recensioner från andra kunder och detta ger honom förtroende att beställa därifrån. 
+När han har valt sin meny och gjort eventuela anpassningar och önskemål så känner sig nöjd med sitt val. För Thomas är det viktigt att veta råvornas ursprung vilket han får information om av applikationen.
+Då lägger han sin order och betalar smidigt via applikationen. När maten anländer är det bättre än förväntad och Thomas ger en positiv recension för att dela med sig av sina erfaranheter till andra kunder på applikationen.
+
+
+Thai Thai är en populär restaurang som just har anslutit till vår restauranghottlineapplicationer för att öka sin synlighet och når ut till kunderna.
+När dem loggar in på restaurangens portal så kan dem enkelt hantera sina menyer och priser. Dem får också tillgång till beställningsstatistik och insikter på vilka maträttar som är mest efterfrågade och högst bedömda av kunderna.
+Restaurangen kan anpassa sin profil genom att lägga till information om råvornas ursprung och eventuela allergener, vilket ger en extra demention.
+När en restaurangen motogar en beställning av kunden så får restaurangen snabbt notis. Dem kan enkelt se beställningens detaljer och förbreda maten efter dem har skickat en bekräftelse till kunden med realtidsinfermation om leveransen.
+En transaktionen genomförs från kund till restaurangen.
+Efter beställningen har levererads så har restaurangen möjlighet att del av kundens recension för att i framtiden bättre kunna möta kundernas förväntingar.
+
 
 
 RESTAURANG 
